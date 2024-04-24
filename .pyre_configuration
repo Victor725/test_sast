@@ -1,0 +1,12 @@
+{
+  "site_package_search_strategy": "pep561",
+  "source_directories": [
+    "."
+  ],
+  "taint_models_path": "/pysa_taint_model",
+  "search_path": [
+    "/usr/local/lib/pyre_check/typeshed/stubs/",
+    "/usr/local/lib/pyre_check/typeshed/stdlib/"
+  ],
+  "typeshed": "/usr/local/lib/python3.8/dist-packages/mypy/typeshed"
+}
