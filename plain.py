@@ -3,10 +3,10 @@ import os
 
 def transcode_file():
     Input = input('Please provide the path for the file to transcode: ')
-    command = 'ls "{source}" '.format(source=Input)
+    command = 'ffmpeg -i output_file.mpg'
     #command = Input
     os.system(command)  # command exec!
-    ping(Input)
+    ping(command)
 
 
 def ping(target):
